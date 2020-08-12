@@ -1,0 +1,15 @@
+name: multi_doh_server
+description: A DoH-server which handles multiple queries at once.
+# version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: ">=2.8.1 <3.0.0"
+
+dependencies:
+  http: ^0.12.2
+  crypto: ^2.1.5
+  dns: ^0.1.3
+
+dev_dependencies:
+  pedantic: ^1.9.0
